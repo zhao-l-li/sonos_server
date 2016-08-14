@@ -2,6 +2,4 @@ version: '2'
 services:
   sonos_server:
     image: cyberkov/node-sonos-http-api
-    #image: psmith/synology-docker-node-sonos-http-api  
-    #image: adn182/node-sonos-http-api   
 

@@ -4,13 +4,6 @@ services:
     extends:
       file: docker/docker-compose.common.yml
       service: sonos_server
-    ports:
-      - 3500:3500
-      - 5005:5005
-      - 5006:5006
-      - 1900/udp:1900/udp
-      - 1901/udp:1901/udp
-      - 6969/udp:6969/udp
     network_mode: "host"
     volumes:
       - ./settings.json:/opt/app/settings.json
