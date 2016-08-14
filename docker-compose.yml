@@ -1,0 +1,11 @@
+version: '2'
+services:
+  sonos_server:
+    extends:
+      file: docker/docker-compose.common.yml
+      service: sonos_server
+    network_mode: "host"
+    volumes:
+      - ./settings.json:/opt/app/settings.json
+      - ./presets.json:/opt/app/presets.json
+

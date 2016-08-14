@@ -1,0 +1,5 @@
+version: '2'
+services:
+  sonos_server:
+    image: cyberkov/node-sonos-http-api
+
