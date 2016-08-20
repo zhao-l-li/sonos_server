@@ -6,6 +6,5 @@ services:
       service: sonos_server
     network_mode: "host"
     volumes:
-      - ./settings.json:/opt/app/settings.json
       - ./presets.json:/opt/app/presets.json
 

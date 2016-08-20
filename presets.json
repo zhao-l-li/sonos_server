@@ -1,2 +1,25 @@
-{}
+{
+  "all": {
+    "playMode": "NORMAL",
+    "players": [
+      {
+        "roomName": "Living Room",
+        "volume": 50
+      },
+      {
+        "roomName": "Kitchen",
+        "volume": 50
+      },
+      {
+        "roomName": "Playroom",
+        "volume": 50
+      },
+      {
+        "roomName": "Master Bedroom",
+        "volume": 50
+      }
+    ],
+    "pauseOthers": true
+  }
+}
 
