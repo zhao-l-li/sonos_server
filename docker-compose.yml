@@ -7,4 +7,5 @@ services:
     network_mode: "host"
     volumes:
       - ./presets.json:/opt/app/presets.json
+      - ./settings.json:/opt/app/settings.json
 
